@@ -83,134 +83,133 @@ PLACES = [
     },
 ]
 
-KATHMANDU_PLACES = [
-    {
-        "id": "swayambhunath",
-        "name": "Swayambhunath Stupa",
-        "tagline": "The Ancient Monkey Temple",
-        "image": "https://www.distinctdestinations.in/DistinctDestinationsBackEndImg/BlogImage/experiencing-swayambhunath-stupa-the-monkey-temple-of-nepal-L-distinctdestinations.jpg",
-        "post_author": "Samir Sharma",
-        "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-        "description": "Perched atop a hill west of Kathmandu city, Swayambhunath is one of the most sacred Buddhist sites in Nepal. The dome-shaped stupa is painted with the watchful eyes of Buddha. It is universally loved for its spiritual harmony, hundreds of playful monkeys, and panoramic sunset views of the valley.",
-        "safety_pct": 96,
-        "default_likes": 1240,
-        "default_dislikes": 12,
-        "default_ratings": [5, 5, 4, 5],
-        "default_feedbacks": [
-            {"author": "GuideDorje", "comment": "The morning prayers are hypnotic.", "verified": True},
-            {"author": "WandererKT", "comment": "Amazing view of the entire valley!", "verified": True},
-            {"author": "Guest", "comment": "Keep your sunglasses safe from the monkeys!", "verified": False}
-        ]
-    },
-    {
-        "id": "boudhanath_premium",
-        "name": "Boudhanath Stupa",
-        "tagline": "The Mandala of Light",
-        "image": "https://lp-cms-production.imgix.net/2019-06/813869da84003e9ab623499ae2465723-bodhnath-stupa.jpg?w=1200&auto=format",
-        "post_author": "Pasang Sherpa",
-        "author_avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
-        "description": "As one of the largest spherical stupas in the world, Boudhanath dominates the skyline with its massive mandala. It serves as a historic trade hub and a sanctuary of Tibetan Buddhism, surrounded by humming prayer wheels, rooftop cafes, and the rich aroma of butter lamps.",
-        "safety_pct": 98,
-        "default_likes": 1850,
-        "default_dislikes": 8,
-        "default_ratings": [5, 5, 5, 4],
-        "default_feedbacks": [
-            {"author": "Karma_P", "comment": "Peaceful circumambulations (Kora) around sunset.", "verified": True},
-            {"author": "ChieTravels", "comment": "Best rooftop cafes in Kathmandu.", "verified": True},
-            {"author": "Guest", "comment": "Very safe even for solo night walks.", "verified": False}
-        ]
-    },
-    {
-        "id": "pashupatinath_premium",
-        "name": "Pashupatinath Temple",
-        "tagline": "The Sacred River Sanctuary",
-        "image": "https://www.travelhimalayan.com/wp-content/uploads/2026/01/Pashupatinath-to-Mount-Kailash-1.webp",
-        "post_author": "Aayush Bhattarai",
-        "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-        "description": "Stretched along both banks of the sacred Bagmati River, Pashupatinath is Nepal's most revered Hindu temple complex. Dedicated to Lord Shiva, the site is an intricate tapestry of gold-roofed temples, stone shrines, and profound cultural rituals of life, devotion, and transition.",
-        "safety_pct": 92,
-        "default_likes": 980,
-        "default_dislikes": 32,
-        "default_ratings": [4, 5, 4, 4],
-        "default_feedbacks": [
-            {"author": "Aarav_Dev", "comment": "Profound cultural and spiritual experience.", "verified": True},
-            {"author": "TravelScribe", "comment": "Visit during Aarati evening prayers.", "verified": True},
-            {"author": "Guest", "comment": "Respect the photography rules near the riverbanks.", "verified": False}
-        ]
-    },
-    {
-        "id": "ktm_durbar",
-        "name": "Kathmandu Durbar Square",
-        "tagline": "The Ancient Courtyard of Kings",
-        "image": "https://happymountainnepal.com/wp-content/uploads/2025/02/all-you-need-to-know-about-kathmandu-durbar-square19.jpg",
-        "post_author": "Prerana Shrestha",
-        "author_avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
-        "description": "Located in the heart of the old city, this UNESCO World Heritage Site is surrounded by spectacular Newari architecture, ancient palaces, and courtyard temples. It is the historic seat of Nepalese royalty and the home of the Kumari, the living goddess.",
-        "safety_pct": 89,
-        "default_likes": 1120,
-        "default_dislikes": 19,
-        "default_ratings": [4, 4, 3, 4],
-        "default_feedbacks": [
-            {"author": "NewarHeritage", "comment": "Intricate wood carvings that are centuries old.", "verified": True},
-            {"author": "Shreeya_K", "comment": "Lovely place to sit and people-watch.", "verified": True},
-            {"author": "Guest", "comment": "Local tea stalls around here are wonderful.", "verified": False}
-        ]
-    },
-    {
-        "id": "patan_durbar",
-        "name": "Patan Durbar Square",
-        "tagline": "The City of Fine Arts",
-        "image": "https://pristinenepal.com/wp-content/uploads/2024/05/patan-durbar-1024x683.webp",
-        "post_author": "Niranjan Joshi",
-        "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-        "description": "Patan Durbar Square is famous for its artistic heritage. Every corner showcases incredible Newari architecture, stone temples, and bronze monuments. The Patan Museum inside the palace is widely considered one of the best curators of Asian religious art.",
-        "safety_pct": 95,
-        "default_likes": 1390,
-        "default_dislikes": 11,
-        "default_ratings": [5, 4, 5, 5],
-        "default_feedbacks": [
-            {"author": "Art_Lover", "comment": "The Krishna Mandir stone temple is a marvel.", "verified": True},
-            {"author": "Rohan99", "comment": "Very clean and highly artistic.", "verified": True},
-            {"author": "Guest", "comment": "Excellent local handicraft shops.", "verified": False}
-        ]
-    },
-    {
-        "id": "bhaktapur_durbar",
-        "name": "Bhaktapur Durbar Square",
-        "tagline": "The Museum of Living Culture",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/View_of_Bhaktapur_Durbar_Square.jpg",
-        "post_author": "Srijana Malla",
-        "author_avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80",
-        "description": "Bhaktapur is a timeless town filled with red clay brick roads, historic courtyards, and massive temples like Nyatapola. Known as the 'City of Devotees', it retains its traditional lifestyle, potters’ squares, and world-famous JuJu Dhau (king curd).",
-        "safety_pct": 97,
-        "default_likes": 1460,
-        "default_dislikes": 14,
-        "default_ratings": [5, 5, 5, 4],
-        "default_feedbacks": [
-            {"author": "JujuEnthusiast", "comment": "Make sure to try the local JuJu Dhau!", "verified": True},
-            {"author": "Wander_Lust", "comment": "The 55-window palace is breathtaking.", "verified": True},
-            {"author": "Guest", "comment": "Very pedestrian-friendly and peaceful.", "verified": False}
-        ]
-    },
-    {
-        "id": "garden_of_dreams",
-        "name": "Garden of Dreams",
-        "tagline": "The Oasis of Tranquility",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSacINV-fSDNL-IxCLdEivJKfgYAZ1JrZbvkKuCLwIq6d8iTW9V_cQraMU&s=10",
-        "post_author": "Rohan Raj",
-        "author_avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
-        "description": "Tucked away near the bustling streets of Thamel, the Garden of Dreams is a neoclassical historical garden. Its beautifully restored pavilions, amphitheater, fountains, and sunken gardens offer a quiet escape from the city’s vibrant energy.",
-        "safety_pct": 99,
-        "default_likes": 870,
-        "default_dislikes": 6,
-        "default_ratings": [5, 4, 4, 5],
-        "default_feedbacks": [
-            {"author": "EscapeArtist", "comment": "Perfect escape from Thamel's chaotic streets.", "verified": True},
-            {"author": "Flora_Fan", "comment": "Beautifully manicured gardens.", "verified": True},
-            {"author": "Guest", "comment": "Great spot to read a book and have a coffee.", "verified": False}
-        ]
-    }
-]
+DISTRICT_PREMIUM_PLACES = {
+    "Kathmandu": [
+        {
+            "id": "swayambhunath",
+            "name": "Swayambhunath Stupa",
+            "tagline": "The Ancient Monkey Temple",
+            "image": "https://www.distinctdestinations.in/DistinctDestinationsBackEndImg/BlogImage/experiencing-swayambhunath-stupa-the-monkey-temple-of-nepal-L-distinctdestinations.jpg",
+            "post_author": "Samir Sharma",
+            "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+            "description": "Perched atop a hill west of Kathmandu city, Swayambhunath is one of the most sacred Buddhist sites in Nepal. The dome-shaped stupa is painted with the watchful eyes of Buddha. It is universally loved for its spiritual harmony, hundreds of playful monkeys, and panoramic sunset views of the valley.",
+            "safety_pct": 96,
+            "default_likes": 1240,
+            "default_dislikes": 12,
+            "default_ratings": [5, 5, 4, 5],
+            "default_feedbacks": [
+                {"author": "GuideDorje", "comment": "The morning prayers are hypnotic.", "verified": True},
+                {"author": "WandererKT", "comment": "Amazing view of the entire valley!", "verified": True},
+                {"author": "Guest", "comment": "Keep your sunglasses safe from the monkeys!", "verified": False}
+            ]
+        },
+        {
+            "id": "boudhanath_premium",
+            "name": "Boudhanath Stupa",
+            "tagline": "The Mandala of Light",
+            "image": "https://lp-cms-production.imgix.net/2019-06/813869da84003e9ab623499ae2465723-bodhnath-stupa.jpg?w=1200&auto=format",
+            "post_author": "Pasang Sherpa",
+            "author_avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+            "description": "As one of the largest spherical stupas in the world, Boudhanath dominates the skyline with its massive mandala. It serves as a historic trade hub and a sanctuary of Tibetan Buddhism, surrounded by humming prayer wheels, rooftop cafes, and the rich aroma of butter lamps.",
+            "safety_pct": 98,
+            "default_likes": 1850,
+            "default_dislikes": 8,
+            "default_ratings": [5, 5, 5, 4],
+            "default_feedbacks": [
+                {"author": "Karma_P", "comment": "Peaceful circumambulations (Kora) around sunset.", "verified": True},
+                {"author": "ChieTravels", "comment": "Best rooftop cafes in Kathmandu.", "verified": True}
+            ]
+        },
+        {
+            "id": "pashupatinath_premium",
+            "name": "Pashupatinath Temple",
+            "tagline": "The Sacred River Sanctuary",
+            "image": "https://www.travelhimalayan.com/wp-content/uploads/2026/01/Pashupatinath-to-Mount-Kailash-1.webp",
+            "post_author": "Aayush Bhattarai",
+            "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+            "description": "Stretched along both banks of the sacred Bagmati River, Pashupatinath is Nepal's most revered Hindu temple complex. Dedicated to Lord Shiva, the site is an intricate tapestry of gold-roofed temples, stone shrines, and profound cultural rituals of life, devotion, and transition.",
+            "safety_pct": 92,
+            "default_likes": 980,
+            "default_dislikes": 32,
+            "default_ratings": [4, 5, 4, 4],
+            "default_feedbacks": [
+                {"author": "Aarav_Dev", "comment": "Profound cultural and spiritual experience.", "verified": True},
+                {"author": "TravelScribe", "comment": "Visit during Aarati evening prayers.", "verified": True}
+            ]
+        }
+    ],
+    "Kaski": [
+        {
+            "id": "phewa_lake_premium",
+            "name": "Phewa Lake",
+            "tagline": "The Mirror of Machhapuchhre",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Phewa_lake.jpg/1280px-Phewa_lake.jpg",
+            "post_author": "Rajan Thapa",
+            "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+            "description": "Phewa Lake is a postcard-perfect freshwater lake in Pokhara. Famous for the reflection of Mount Machhapuchhre on its surface and the stunning island-bound Tal Barahi Temple, it serves as the ultimate leisure destination for travelers worldwide.",
+            "safety_pct": 97,
+            "default_likes": 1540,
+            "default_dislikes": 5,
+            "default_ratings": [5, 5, 5, 4],
+            "default_feedbacks": [
+                {"author": "PokharaLover", "comment": "Boating during sunset here is surreal.", "verified": True},
+                {"author": "Guest", "comment": "Always wear life jackets while boating!", "verified": False}
+            ]
+        },
+        {
+            "id": "abc_premium",
+            "name": "Annapurna Base Camp",
+            "tagline": "The Amphitheater of Gods",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Annapurna_Base_Camp.jpg/1280px-Annapurna_Base_Camp.jpg",
+            "post_author": "Bikram Adhikari",
+            "author_avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+            "description": "Sitting at an altitude of 4,130 meters, Annapurna Base Camp offers an incredible 360-degree high-altitude mountain viewpoint. It rewards trekkers with breathtaking views of massive walls of rock and ice from some of the highest mountain ranges in the world.",
+            "safety_pct": 90,
+            "default_likes": 2100,
+            "default_dislikes": 14,
+            "default_ratings": [5, 5, 5, 5],
+            "default_feedbacks": [
+                {"author": "HimalayanHiker", "comment": "Tough climb, but the view is life-changing.", "verified": True}
+            ]
+        }
+    ],
+    "Chitwan": [
+        {
+            "id": "chitwan_premium",
+            "name": "Chitwan National Park",
+            "tagline": "The Subtropical Wilderness",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/One_horned_rhino_chitwan.jpg/1280px-One_horned_rhino_chitwan.jpg",
+            "post_author": "Sara Gurung",
+            "author_avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+            "description": "As Nepal's first national park and a protected UNESCO World Heritage Site, Chitwan preserving one of the last remaining populations of the single-horned Asiatic rhinoceros and the royal Bengal tiger inside lush marshlands and jungle forests.",
+            "safety_pct": 94,
+            "default_likes": 1310,
+            "default_dislikes": 18,
+            "default_ratings": [5, 4, 4, 5],
+            "default_feedbacks": [
+                {"author": "WildExplorer", "comment": "Managed to spot a mother rhino and her calf!", "verified": True}
+            ]
+        }
+    ],
+    "Mugu": [
+        {
+            "id": "rara_premium",
+            "name": "Rara Lake",
+            "tagline": "The Deep Blue Secret",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Rara_Lake.jpg/1280px-Rara_Lake.jpg",
+            "post_author": "Mina Shrestha",
+            "author_avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80",
+            "description": "Rara Lake is the largest lake in Nepal, sitting completely untouched within the remote high-altitude pine fields of Mugu district. Celebrated for its changing water hues and pure serenity, it remains an unforgettable off-the-beaten-path paradise.",
+            "safety_pct": 93,
+            "default_likes": 890,
+            "default_dislikes": 4,
+            "default_ratings": [5, 5, 5, 5],
+            "default_feedbacks": [
+                {"author": "KarnaliWanderer", "comment": "Getting here is an adventure, but the view is pure magic.", "verified": True}
+            ]
+        }
+    ]
+}
 
 SECTIONS = [
     ("✨ Recommended for You", ["p1", "p2", "p3"]),
@@ -225,18 +224,27 @@ def init():
     defaults = {
         "page": "home",
         "selected_place": None,
-        "selected_district": None,  # Track unique inner district landing page
+        "selected_district": None,
         "logged_in": False,
         "username": "",
         "posts": [dict(p) for p in PLACES],
         "votes": {p["id"]: {"up": 0, "down": 0} for p in PLACES},
-        # Kathmandu state engines integration
-        "likes": {p["id"]: p["default_likes"] for p in KATHMANDU_PLACES},
-        "dislikes": {p["id"]: p["default_dislikes"] for p in KATHMANDU_PLACES},
-        "ratings": {p["id"]: p["default_ratings"].copy() for p in KATHMANDU_PLACES},
-        "feedbacks": {p["id"]: p["default_feedbacks"].copy() for p in KATHMANDU_PLACES},
-        "voted": {p["id"]: None for p in KATHMANDU_PLACES},
+        "likes": {},
+        "dislikes": {},
+        "ratings": {},
+        "feedbacks": {},
+        "voted": {},
     }
+    
+    # Populate the dynamic state configuration across all registered district hubs
+    for dist, sites in DISTRICT_PREMIUM_PLACES.items():
+        for p in sites:
+            defaults["likes"][p["id"]] = p["default_likes"]
+            defaults["dislikes"][p["id"]] = p["default_dislikes"]
+            defaults["ratings"][p["id"]] = p["default_ratings"].copy()
+            defaults["feedbacks"][p["id"]] = p["default_feedbacks"].copy()
+            defaults["voted"][p["id"]] = None
+
     for k, v in defaults.items():
         if k not in st.session_state:
             st.session_state[k] = v
@@ -402,7 +410,6 @@ section[data-testid="stSidebar"] .stButton > button:hover {
 
 hr { border:none; border-top:1px solid #e0f2f1; margin:18px 0; }
 
-/* ── Kathmandu Code Integrated Layout Styling ── */
 .title-banner {
     background: linear-gradient(135deg, #ccfbf1 0%, #f0fdfa 100%);
     padding: 35px;
@@ -762,29 +769,31 @@ def show_home():
     st.markdown('</div>', unsafe_allow_html=True)
 
 
-# ── INTEGRATED KATHMANDU DISTRICT DASHBOARD ───────────────────────────────────
-def show_kathmandu_district():
+# ── GENERALIZED PREMIUM DISTRICT DASHBOARD ────────────────────────────────────
+def show_district_dashboard(district_name):
     st.markdown('<div class="tg-page">', unsafe_allow_html=True)
     st.markdown('<div class="btn-back">', unsafe_allow_html=True)
-    if st.button("← Back to Districts", key="ktm_dashboard_back"):
+    if st.button("← Back to Districts", key=f"{district_name}_dashboard_back"):
         go("district")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # Main App Header
+    # Main Dashboard Header Banner
     st.markdown(
-        """
+        f"""
         <div class="title-banner">
-            <h1>📍 Kathmandu</h1>
+            <h1>📍 {district_name}</h1>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
+    places_list = DISTRICT_PREMIUM_PLACES.get(district_name, [])
+
     # Loop and render each place sequentially
-    for p in KATHMANDU_PLACES:
+    for p in places_list:
         p_id = p["id"]
 
-        # Calculate real-time dynamic star rating
+        # Calculate dynamic live star rankings
         current_ratings = st.session_state.ratings[p_id]
         avg_rating = (
             sum(current_ratings) / len(current_ratings)
@@ -795,203 +804,200 @@ def show_kathmandu_district():
             5 - int(round(avg_rating))
         )
 
-        # Custom Card Container opening
-        st.markdown(f'<div class="tg-feed-card" style="padding:20px;">', unsafe_allow_html=True)
+        # FIX: Replaced raw unclosed divs with native container logic to eliminate overlaps
+        with st.container(border=True):
+            st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
+            col_visual, col_details = st.columns([1.1, 1.0])
 
-        # Side-by-side design layout
-        col_visual, col_details = st.columns([1.1, 1.0])
-
-        with col_visual:
-            st.markdown(
-                f"""
-                <div class="post-author-header">
-                    <img src="{p['author_avatar']}" class="author-avatar" alt="avatar">
-                    <div>
-                        <p class="author-name">{p['post_author']}</p>
-                        <p class="post-meta">Shared a location • Local Guide</p>
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-            # Image block
-            st.markdown(
-                f"""
-                <div class="card-img-container">
-                    <img src="{p['image']}" alt="{p['name']}">
-                    <div class="rating-overlay">⭐ {avg_rating:.1f}/5 ({len(current_ratings)} ratings)</div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-            # Upvoting and downvoting metrics
-            v_col1, v_col2 = st.columns([1, 1])
-            with v_col1:
-                if st.button(
-                    f"👍 Upvote ({st.session_state.likes[p_id]})",
-                    key=f"like_{p_id}",
-                    use_container_width=True,
-                ):
-                    if st.session_state.voted[p_id] != "like":
-                        st.session_state.likes[p_id] += 1
-                        if st.session_state.voted[p_id] == "dislike":
-                            st.session_state.dislikes[p_id] -= 1
-                        st.session_state.voted[p_id] = "like"
-                        st.rerun()
-
-            with v_col2:
-                if st.button(
-                    f"👎 Downvote ({st.session_state.dislikes[p_id]})",
-                    key=f"dislike_{p_id}",
-                    use_container_width=True,
-                ):
-                    if st.session_state.voted[p_id] != "dislike":
-                        st.session_state.dislikes[p_id] += 1
-                        if st.session_state.voted[p_id] == "like":
-                            st.session_state.likes[p_id] -= 1
-                        st.session_state.voted[p_id] = "dislike"
-                        st.rerun()
-
-            vote_state = st.session_state.voted[p_id]
-            if vote_state:
-                st.caption(f"✨ Registered Feedback: **{vote_state.upper()}**")
-
-        # Details and review container column
-        with col_details:
-            st.markdown(
-                f"<h2 style='color:#0f766e; font-weight:800; margin-top:0; margin-bottom: 2px;'>{p['name']}</h2>",
-                unsafe_allow_html=True,
-            )
-            st.markdown(
-                f"<p style='color:#115e59; font-size:1.05rem; font-weight:600; font-style:italic; margin-bottom: 12px;'>{p['tagline']}</p>",
-                unsafe_allow_html=True,
-            )
-
-            # Unhidden, Prominent Vibe Rating Summary Panel
-            st.markdown(
-                f"""
-                <div style='background: rgba(13, 148, 136, 0.08); padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(45, 212, 191, 0.3); margin-bottom: 15px;'>
-                    <span style='color:#64748b; font-size:0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight:700; display:block;'>Current Vibe Rating</span>
-                    <span style='color:#fbbf24; font-size:1.8rem; font-weight:800; line-height: 1.2;'>{star_display}</span>
-                    <span style='color:#0f766e; font-size:1.4rem; font-weight:700; margin-left: 6px;'>{avg_rating:.1f} / 5.0</span>
-                    <span style='color:#64748b; font-size:0.8rem; display:block; margin-top: 2px;'>Aggregated from {len(current_ratings)} verified travelers</span>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-            # Expander for Historical / Cultural Information
-            with st.expander("📖 Read Description", expanded=False):
-                st.write(p["description"])
-
-                # Interactive context alert based on safety scores
-                if p["safety_pct"] >= 95:
-                    st.success(
-                        f"🔒 Verified Secure Area ({p['safety_pct']}%). Optimal choice for solo exploration."
-                    )
-                else:
-                    st.warning(
-                        f"⚠️ Heavy Market Area. Safety index at {p['safety_pct']}%. Secure your bags."
-                    )
-
-            # Unified Expandable Reviews & Feedback Workspace
-            review_count = len(st.session_state.feedbacks[p_id])
-            with st.expander(
-                f"💬 Traveler Reviews & Comments ({review_count})", expanded=False
-            ):
+            with col_visual:
                 st.markdown(
-                    "<h4 style='color: #0f766e; font-weight: 700; margin-top: 10px; margin-bottom: 4px;'>Write a Review</h4>",
-                    unsafe_allow_html=True,
-                )
-
-                # User Identity Verification Info
-                if st.session_state.logged_in:
-                    st.markdown(
-                        f"<p style='color: #0f766e; font-size:0.85rem; font-weight:600;'>✍️ Posting as: <strong>{st.session_state.username}</strong> <span style='color: #0f766e;'>(✔ Verified)</span></p>",
-                        unsafe_allow_html=True,
-                    )
-                else:
-                    st.markdown(
-                        "<p style='color: #fbbf24; font-size:0.85rem; font-style:italic;'>⚠️ Posting as: <strong>Guest</strong> (Unverified. Log in from the sidebar to claim your badge!)</p>",
-                        unsafe_allow_html=True,
-                    )
-
-                # Borderless interactive submit form
-                with st.form(
-                    key=f"inline_rating_form_{p_id}", clear_on_submit=True
-                ):
-                    user_rating = st.select_slider(
-                        "Set your score:",
-                        options=[1, 2, 3, 4, 5],
-                        value=5,
-                        key=f"star_slider_{p_id}",
-                        format_func=lambda x: "★" * x + "☆" * (5 - x),
-                    )
-
-                    user_comment = st.text_input(
-                        "Share your experience / tip:",
-                        placeholder="e.g. Visited at golden hour, beautiful atmosphere...",
-                        key=f"comment_{p_id}",
-                    )
-
-                    st.markdown('<div class="accent-btn">', unsafe_allow_html=True)
-                    submit_rating_btn = st.form_submit_button(
-                        "Post Traveler Review ✈️"
-                    )
-                    st.markdown("</div>", unsafe_allow_html=True)
-
-                    if submit_rating_btn:
-                        st.session_state.ratings[p_id].append(user_rating)
-
-                        # Log comments with verification statuses
-                        comment_author = (
-                            st.session_state.username
-                            if st.session_state.logged_in
-                            else "Guest"
-                        )
-                        is_verified = st.session_state.logged_in
-
-                        if user_comment.strip():
-                            st.session_state.feedbacks[p_id].append(
-                                {
-                                    "author": comment_author,
-                                    "comment": user_comment.strip(),
-                                    "verified": is_verified,
-                                }
-                            )
-                        st.toast(f"✅ Review posted successfully!")
-                        time.sleep(0.4)
-                        st.rerun()
-
-                st.markdown("---")
-                st.markdown(
-                    "<h4 style='color: #0f766e; font-weight: 700; margin-bottom: 12px;'>Recent Comments</h4>",
-                    unsafe_allow_html=True,
-                )
-
-                # Render all reviews with conditional traveler verification tags
-                for fb in st.session_state.feedbacks[p_id]:
-                    if fb["verified"]:
-                        badge_html = f'<span style="font-size: 0.72rem; color: #0f766e; font-weight: 700;">✔ Verified Traveler ({fb["author"]})</span>'
-                    else:
-                        badge_html = '<span style="font-size: 0.72rem; color: #fbbf24; font-style: italic; font-weight: 600;">⚠ Guest Reviewer (Unverified)</span>'
-
-                    st.markdown(
-                        f"""
-                        <div class="feedback-bubble">
-                            <span style="font-size: 0.92rem; color: #0f172a;">"{fb['comment']}"</span>
-                            <br>
-                            <div style="margin-top: 5px;">
-                                {badge_html}
-                            </div>
+                    f"""
+                    <div class="post-author-header">
+                        <img src="{p['author_avatar']}" class="author-avatar" alt="avatar">
+                        <div>
+                            <p class="author-name">{p['post_author']}</p>
+                            <p class="post-meta">Shared a location • Local Guide</p>
                         </div>
-                        """,
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+                # Destination Visual Panel
+                st.markdown(
+                    f"""
+                    <div class="card-img-container">
+                        <img src="{p['image']}" alt="{p['name']}">
+                        <div class="rating-overlay">⭐ {avg_rating:.1f}/5 ({len(current_ratings)} ratings)</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+                # Voting Actions Grid Layout
+                v_col1, v_col2 = st.columns([1, 1])
+                with v_col1:
+                    if st.button(
+                        f"👍 Upvote ({st.session_state.likes[p_id]})",
+                        key=f"like_{p_id}",
+                        use_container_width=True,
+                    ):
+                        if st.session_state.voted[p_id] != "like":
+                            st.session_state.likes[p_id] += 1
+                            if st.session_state.voted[p_id] == "dislike":
+                                st.session_state.dislikes[p_id] -= 1
+                            st.session_state.voted[p_id] = "like"
+                            st.rerun()
+
+                with v_col2:
+                    if st.button(
+                        f"👎 Downvote ({st.session_state.dislikes[p_id]})",
+                        key=f"dislike_{p_id}",
+                        use_container_width=True,
+                    ):
+                        if st.session_state.voted[p_id] != "dislike":
+                            st.session_state.dislikes[p_id] += 1
+                            if st.session_state.voted[p_id] == "like":
+                                st.session_state.likes[p_id] -= 1
+                            st.session_state.voted[p_id] = "dislike"
+                            st.rerun()
+
+                vote_state = st.session_state.voted[p_id]
+                if vote_state:
+                    st.caption(f"✨ Registered Feedback: **{vote_state.upper()}**")
+
+            # Column 2: Information Content & Comments Workflow Panel
+            with col_details:
+                st.markdown(
+                    f"<h2 style='color:#0f766e; font-weight:800; margin-top:0; margin-bottom:2px;'>{p['name']}</h2>",
+                    unsafe_allow_html=True,
+                )
+                st.markdown(
+                    f"<p style='color:#115e59; font-size:1.05rem; font-weight:600; font-style:italic; margin-bottom:12px;'>{p['tagline']}</p>",
+                    unsafe_allow_html=True,
+                )
+
+                # Prominent Vibe Rating Metrics Display Box
+                st.markdown(
+                    f"""
+                    <div style='background: rgba(13, 148, 136, 0.08); padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(45, 212, 191, 0.3); margin-bottom: 15px;'>
+                        <span style='color:#64748b; font-size:0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight:700; display:block;'>Current Vibe Rating</span>
+                        <span style='color:#fbbf24; font-size:1.8rem; font-weight:800; line-height: 1.2;'>{star_display}</span>
+                        <span style='color:#0f766e; font-size:1.4rem; font-weight:700; margin-left: 6px;'>{avg_rating:.1f} / 5.0</span>
+                        <span style='color:#64748b; font-size:0.8rem; display:block; margin-top: 2px;'>Aggregated from {len(current_ratings)} verified travelers</span>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+                # Expander Workspace for Descriptions
+                with st.expander("📖 Read Description", expanded=False):
+                    st.write(p["description"])
+
+                    # Location safety contextual metrics block
+                    if p["safety_pct"] >= 95:
+                        st.success(
+                            f"🔒 Verified Secure Area ({p['safety_pct']}%). Optimal choice for solo exploration."
+                        )
+                    else:
+                        st.warning(
+                            f"⚠️ Active Area. Safety index around {p['safety_pct']}%. Secure your personal assets."
+                        )
+
+                # Dynamic Expandable User Feedback Matrix
+                review_count = len(st.session_state.feedbacks[p_id])
+                with st.expander(
+                    f"💬 Traveler Reviews & Comments ({review_count})", expanded=False
+                ):
+                    st.markdown(
+                        "<h4 style='color: #0f766e; font-weight: 700; margin-top: 10px; margin-bottom: 4px;'>Write a Review</h4>",
                         unsafe_allow_html=True,
                     )
 
-        st.markdown("</div>", unsafe_allow_html=True)
+                    # Dynamic Traveler Verification Tagging
+                    if st.session_state.logged_in:
+                        st.markdown(
+                            f"<p style='color: #0f766e; font-size:0.85rem; font-weight:600;'>✍️ Posting as: <strong>{st.session_state.username}</strong> <span style='color: #0f766e;'>(✔ Verified)</span></p>",
+                            unsafe_allow_html=True,
+                        )
+                    else:
+                        st.markdown(
+                            "<p style='color: #fbbf24; font-size:0.85rem; font-style:italic;'>⚠️ Posting as: <strong>Guest</strong> (Unverified. Log in from the sidebar to claim your badge!)</p>",
+                            unsafe_allow_html=True,
+                        )
+
+                    # Borderless Review Input Collection Form Module
+                    with st.form(
+                        key=f"inline_rating_form_{p_id}", clear_on_submit=True
+                    ):
+                        user_rating = st.select_slider(
+                            "Set your score:",
+                            options=[1, 2, 3, 4, 5],
+                            value=5,
+                            key=f"star_slider_{p_id}",
+                            format_func=lambda x: "★" * x + "☆" * (5 - x),
+                        )
+
+                        user_comment = st.text_input(
+                            "Share your experience / tip:",
+                            placeholder="e.g. Visited during the morning hours, beautiful atmosphere...",
+                            key=f"comment_{p_id}",
+                        )
+
+                        st.markdown('<div class="accent-btn">', unsafe_allow_html=True)
+                        submit_rating_btn = st.form_submit_button(
+                            "Post Traveler Review ✈️"
+                        )
+                        st.markdown("</div>", unsafe_allow_html=True)
+
+                        if submit_rating_btn:
+                          st.session_state.ratings[p_id].append(user_rating)
+
+                          comment_author = (
+                              st.session_state.username
+                              if st.session_state.logged_in
+                              else "Guest"
+                          )
+                          is_verified = st.session_state.logged_in
+
+                          if user_comment.strip():
+                              st.session_state.feedbacks[p_id].append(
+                                  {
+                                      "author": comment_author,
+                                      "comment": user_comment.strip(),
+                                      "verified": is_verified,
+                                  }
+                              )
+                          st.toast(f"✅ Review posted successfully!")
+                          time.sleep(0.4)
+                          st.rerun()
+
+                    st.markdown("---")
+                    st.markdown(
+                        "<h4 style='color: #0f766e; font-weight: 700; margin-bottom: 12px;'>Recent Comments</h4>",
+                        unsafe_allow_html=True,
+                    )
+
+                    # Render Comment Cards sequentially inside the tracking layout
+                    for fb in st.session_state.feedbacks[p_id]:
+                        if fb["verified"]:
+                            badge_html = f'<span style="font-size: 0.72rem; color: #0f766e; font-weight: 700;">✔ Verified Traveler ({fb["author"]})</span>'
+                        else:
+                            badge_html = f'<span style="font-size: 0.72rem; color: #fbbf24; font-style: italic; font-weight: 600;">⚠ Guest Reviewer ({fb["author"]})</span>'
+
+                        st.markdown(
+                            f"""
+                            <div class="feedback-bubble">
+                                <span style="font-size: 0.92rem; color: #0f172a;">"{fb['comment']}"</span>
+                                <br>
+                                <div style="margin-top: 5px;">
+                                    {badge_html}
+                                </div>
+                            </div>
+                            """,
+                            unsafe_allow_html=True,
+                        )
+            st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
 
     st.markdown("---")
     st.markdown(
@@ -1003,9 +1009,9 @@ def show_kathmandu_district():
 
 # ── THE DISTRICT HUB NAVIGATION GRID ──────────────────────────────────────────
 def show_district():
-    # If a specific district view state is set, redirect to its custom template component
-    if st.session_state.selected_district == "Kathmandu":
-        show_kathmandu_district()
+    # Dynamic Dashboard router mapping matching any premium targets
+    if st.session_state.selected_district in DISTRICT_PREMIUM_PLACES:
+        show_district_dashboard(st.session_state.selected_district)
         return
 
     st.markdown('<div class="tg-page">', unsafe_allow_html=True)
@@ -1039,12 +1045,9 @@ def show_district():
             </div>""",
                 unsafe_allow_html=True,
             )
-            # Create a localized clean native Streamlit routing link below cards
+            # Route exploration calls into premium templates dynamically
             if st.button(f"Explore {d} →", key=f"btn_explore_{d}"):
-                if d == "Kathmandu":
-                    go("district", district="Kathmandu")
-                else:
-                    st.info(f"Content structure for {d} coming soon!")
+                go("district", district=d)
 
     st.markdown(
         '<p style="font-size:13px;color:#90a4ae;margin-top:32px;text-align:center;">More district content coming from your team 🇳🇵</p>',
